@@ -1,4 +1,7 @@
-# socketgd
+<div align="center"><img src="https://capriza.github.io/images/logos/logos-beambot-2.svg" height="128" /></div>
+
+socketgd
+===
 
 Guaranteed delivery for socket.io. Works in node and in the browser.
 
