@@ -19,6 +19,21 @@
   }
 
   /**
+   * set the id
+   * @param id
+   */
+  SocketGD.prototype.setId = function (id) {
+      this._id = id >= 0 ? id : 0;
+  };
+
+  /**
+   * return the id
+   */
+  SocketGD.prototype.id = function () {
+      return this._id;
+  };
+
+  /**
    * set the last message id that an ack was sent for
    * @param lastAcked
    */
