@@ -234,6 +234,11 @@
     this._socket = null;
   };
 
+    SocketGD.prototype.to = function() {
+        this._socket = this._socket.to(...arguments);
+        return this;
+    };
+
   /**
    * listen for events on the socket. this replaces calling the 'on' method directly on the socket.io socket.
    * here we take care of acking messages.
